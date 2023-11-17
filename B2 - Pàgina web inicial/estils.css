@@ -1,0 +1,251 @@
+
+
+/*
+Añadimos un Selector Basic- Universal * para el margen y el relleno
+*/
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+Elemento semántico
+*/
+
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    line-height: 2;
+}
+
+
+/*
+Elemento semático header.
+*/
+
+
+header {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+/*
+Combinació de selectors de clase
+*/
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+
+/*
+Combinació de selectors de clase
+*/
+
+
+.principal , .boto{
+    color:orangered;
+}
+
+
+/*
+Combinació de selectors de clase
+*/
+
+
+nav a{
+
+    color: black;
+}
+
+
+/*
+Elemento semántico main
+*/
+
+
+main {
+    max-width: 600px;
+    margin: 10px ;
+    padding: 10px;
+    
+}
+
+
+/*
+Selector de Etiqueta h2.
+*/
+
+
+h2,h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*
+Selector de Identificador
+*/
+
+
+h1#color {
+    color: white;
+}
+
+
+/*
+Selector de Etiqueta p en los parrafos
+*/
+p {
+    margin-bottom: 15px;
+}
+
+
+/*
+Elemento semántico aside
+*/
+
+
+aside {
+    background-color: white;
+    padding: 15px;
+}
+
+
+/*
+Elemento semántico footer
+*/
+
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*
+Selector de clase
+*/
+p.footer{
+    color: orangered;
+}
+
+
+/*
+Lo que tenemos en el aside lo quiero de color negro y subrayado
+*/
+aside a {
+    color: black;
+    text-decoration: underline;
+}
+
+
+/*
+pseudoclasses
+*/
+aside a:hover {
+    color: orangered;
+}
+
+
+/*
+pseudoclasses. cuando pasas por encima se verá de color naranja
+*/
+nav a:hover {
+
+    color: orangered;
+}
+
+
+/*
+Pongo los título (h1)s de audios,videos y tabla de color orangeRED
+*/
+
+h1.titulo{
+    color: orangered;
+}
+
+/*
+Pongo todos los header que tengan a (enlaces) tengan la propiedad hover en orangeRed
+*/
+header a:hover{
+    color:orangered;
+}
+
+
+/*
+Le pongo marcos naranja al video , cambio el tamaño y la altura, pongo bordes, pongo color de fondo para que se vea mejor
+*/
+
+video{
+width: 250px;
+  height: 300px;
+  border-color: orangered;
+  border-width: 10px;
+  border-style:solid;
+  background-color: black;
+}   
+
+/*
+El audio 1 le pongo una foto de fondobackground-image: url(luigi.jpg)
+un marco conborder-style:solid, pongo que no se repita con  background-repeat: no-repeat;
+*/
+.audio1{
+  
+    background-repeat: no-repeat;
+    height: 250px;
+  border-color: orangered;
+  border-width: 10px;
+  border-style:solid;
+  background-image: url(luigi.jpg)
+  
+}
+
+
+/*
+Lo mismo que con el audio 1 pero con diferente foto
+*/
+.audio2{   
+    background-repeat: no-repeat;
+height: 280px;
+border-color: orangered;
+  border-width: 10px;
+  border-style:solid;
+  background-image: url(mario.jpg)
+}
+
+/*
+El footer de la página tabla, creo una clase llamada tabla
+*/
+footer.tabla{
+    
+    text-align: center;
+    padding: 200px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    
+/*
+El main de la página tabla, creo una clase llamada tabla
+*/
+}
+main.tabla{
+    
+    max-width: 80px;
+    margin: 100px ;
+    padding: 10px;
+    color: orangered;
+    
+
+}
