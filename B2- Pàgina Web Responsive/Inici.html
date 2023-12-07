@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Pàgina d'inici">
+    <title>Inici - Tasca 2</title>
+    <!-- El enlace al CSS  --> 
+    <link rel="stylesheet" href="estils.css"/><!–Añadimos link para tener enlazado el css –>
+</head>
+
+<!–-1.1 Etiqueta semántica de cabecera añadios (header)
+y dentro ponemos h1,los enlaces y la imagen  -–>
+
+<body>
+    <header>
+        <!–Ponemos una ID llamada color –>
+        <h1>Mesón Can Tomeu</h1>
+        <!-- El logo de la página web --> 
+        <img src="meson.PNG" alt="html" width="150" height="150">
+        <!-- 1.2 Etiqueta semántica de navegación añadimos (nav) con la página de navegación de
+                carta,bebidas,postres. --> 
+        <nav>
+            <ul><!-- Las tres páginas con sus enlaces --> 
+                <li><a href="Carta.html">Carta</a></li>
+                <li><a href="Postres.html">Postres</a></li>
+                <li><a href="Bebidas.html">Bebidas</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+
+    
+    <main>
+        <aside><!-- Creamos un aside para poner las 3 fotos en blanco y negro--> 
+            <div class="tamaño">
+                <div>
+                <img src="slider2.jpg" alt="foto1">
+                </div>
+                <div>
+                <img src="slider3.webp" alt="foto3">
+                 </div>
+                 <div>
+                <img src="slider1.jpg" alt="foto2">
+                </div>
+                
+                
+                
+            </div><!-- Primer párrafo explicativo --> 
+            <p class="parrafo1"> <b>Nuestros Origenes</b><br> La historia de nuestro restaurante se remonta a el año 1950, 
+                cuando una família con una visión común decidió dar vida a un lugar especial.
+                <br>Inspirados por la rica herencia culinaria de la región de Mallorca y guiados por la búsqueda constante de la excelencia, <br>
+                nos propusimos crear un rincón gastronómicoque capturara la esencia de la cocina local con un toque distintivo.</p>
+    
+        
+            
+        </aside><!-- Video de la página Inicio --> 
+        <video class="centrado" src="portada2.mp4"  preload="auto" autoplay muted width="300" height="300" ></video>
+        
+    </main>
+
+    <!–1.4 Etiqueta semántica (aside) y incluimos el enlace al instituto borja moll  –>
+    <aside><!-- Los dos párrafos de final de Incio --> 
+        <p class="parrafo1">Con cada visita a nuestro restaurante, te invitamos a embarcarte en un viaje culinario que celebra la diversidad de Mallorca.<br>
+            Desde las delicias del mar hasta las exquisiteces de la tierra, cada plato es una oda a la herencia gastronómica de la isla, <br>
+            elevada con un toque contemporáneo y presentada con el arte y la pasión que nos caracterizan.</p>
+
+        <p class="parrafo1">Bienvenido a nuestro rincón gastronómico en Mallorca, 
+            donde la tradición se encuentra con la innovación y cada comida es una celebración de la rica cultura culinaria de esta joya mediterránea.<br>
+             ¡Descubre la esencia de Mallorca en cada plato, y únete a nosotros para una experiencia culinaria única en este rincón especial de la isla!</p>
+            
+    </aside>
+
+    <!–-1.3 Etiqueta semántica de pie de página añadimos (footer) con los tres párrafos con teléfono Copyright y correo  –>
+    <footer><!-- En el footer tendremos 3 párrafos el mapa y los 3 iconos/enlaces a otras aplicaciones --> 
+        <p class="footer">Reserva en reserva@mesoncantomeu@gmail.com</p>
+        <p class="footer">Teléfono: 666778899</p>
+        <p class="footer">Desde 1950 Meson C'an Tomeu</p> 
+        <!-- Mapa -->   
+        <iframe  class="mapa" iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6149.660122295169!2d2.6212384468949543!3d39.58598020474301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sson%20moix!5e0!3m2!1ses!2ses!4v1701770687792!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Los tres logos --> 
+        <a  class= "insta" href="https://www.instagram.com/"><img src="insta.ico" /></a>
+        <a  class= "twitter" href="https://twitter.com/"><img src="twitter.ico" /></a>
+        <a  class= "tripadvisor" href="https://www.tripadvisor.es/"><img src="tripadvisor.ico" /></a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,366 @@
+
+
+
+                                            /* PAGINA DE INICIO */
+
+/*Para el video -Pongo el tamaño como me parece más correcto le añado propiedades de bloque y el margen automático*/
+.centrado{
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    display: block;
+
+   }
+
+ /* La lista con los tres enlaces a la carta postres y bebidas las pongo centradas debajo del logo*/
+    nav li {
+        display: inline;
+        margin-right: 20px;
+        
+    }
+
+/*Les doy color negro*/
+    nav a{
+
+        color: black;
+    }
+
+ /*El main Principal le doy un maximo del 100% el margen o auto y el relleno de 20px*/   
+    main {
+        max-width: 100%; 
+        margin: 0 auto; 
+        padding: 20px;
+    }
+ 
+    /* Como propiedades globales margen y relleno a 0*/
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+/*Para el body añado la letra el tamaño y el color de fondo que me parece más correcto*/
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2;
+    background-color:black;
+       
+}
+
+/* Para el header añador color de fondo , color de letra el texto alineado y relleno de 15 px*/
+header {
+    background-color:brown;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
+/*Para los títulos h3 les pongo color blanco*/
+h3{
+    color: white;
+}
+
+/*Aañadimos un mapa paar el footer El mapa que dice donde esta el restaurante*/
+.mapa {
+    width: 100%;
+    height: auto; 
+    margin: 20px 0; 
+    padding: 0px;
+    border: black 5cap solid;
+    clear: both; 
+}
+  
+
+
+/*Las 3 fotos en blanco y negro las ponemos centradas con el tamaño adecuado*/
+.tamaño {
+    text-align: center; 
+}
+
+.tamaño img {
+    width: 400px;
+    height: 300px; 
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+
+
+
+
+                                         /*FIN DE PAGINA DE INICIO*/
+
+
+
+
+
+ /*Parrafos*/
+p {
+    border-radius:100px;
+    margin-bottom: 100px;
+    color: white;
+    padding: 40px;
+   
+}
+
+.parrafo1{
+    text-align: center;
+}
+
+
+
+
+
+/*Fin parrafos*/
+
+
+
+
+
+/*FOOTER le ponemos color de fondo texto alineado tamaño deletra y margen*/
+
+footer {
+    background-color: brown;
+    text-align: center;
+  margin:initial;
+    font-size: 4;
+   
+  
+    
+}
+
+
+/* Logos del footer-Para los logos de instagram, tripadvisor y twitter*/
+.insta img {
+    width: 32px;
+    height: 30px;
+    
+  }
+
+  .twitter img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .tripadvisor img{
+    width: 25px;
+    height: 25px;
+  }
+
+
+/*Final logos de footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Apartado de bebida Creamos un main para la bebida*/
+
+
+
+main.bebida {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px;
+    text-align: left;
+}
+
+.bebida-item {
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 20px;
+    text-align:initial;
+}
+
+
+
+
+
+/*FINAL Bebida*/
+
+
+
+/*APARTADO DE LA CARTA creamos un main para la carta*/
+
+
+
+
+main.carta {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px;
+    text-align: left;
+}
+
+.carta-item {
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 20px;
+    
+}
+
+
+
+
+
+/*Final Carta*/
+
+
+
+/*APARTADO DE POSTRES creamos un main para postres*/
+
+
+
+main.postre {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px;
+    text-align: left;
+}
+
+.postre-item {
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 20px;
+    
+}
+
+/* Final Postres*/
+
+
+
+/* Media Queris*/
+
+/* Para moviles :  Comprobado con Inspeccionar: (iphoneSE,IPHONE XR , IPHONE 12PRO , SAMSUNG S8, samsung S20 ultra, Pixel 7 Samsung S20 ultra)*/
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 14px;
+        width: 183%;
+        height: auto;
+    }
+
+    nav li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding: 15px;
+        width: 183%;
+        height: auto;
+    }
+
+    .tamaño {
+        text-align: center;
+    }
+
+    .tamaño img {
+        display: block;
+        margin: 0 auto;
+        /* Ajustar el margen según sea necesario */
+    }
+}
+
+
+
+
+/* Media Queris*/
+/* Para tablets   comprobado con inspeccionar ( IPad mini , Ipad Air, Ipad Pro surface pro)*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 12px;
+    }
+
+    nav li {
+        margin-right: 15px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    /*Las 3 fotos en blanco y negro para tablets*/
+    .tamaño {
+        text-align: center;
+    }
+
+    .tamaño img {
+        width: 400px; 
+        height: 300px; 
+        display: inline-block;
+        margin: 0 10px; 
+    }
+}
+
+/* Media Queris*/
+/* Para pantallas grandes comprobado con * Pantalla de escritorio 1920x1080 */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        /* Ajustes de estilo para pantallas grandes */
+        padding: 15px;
+    }
+
+    /* Las 3 fotos en blanco y negro para pantallas grandes */
+    .tamaño {
+        text-align: center;
+    }
+
+    .tamaño img {
+        width: 400px; 
+        height: 300px; 
+        display: inline-block; 
+        margin: 0 10px; 
+    }
+}
